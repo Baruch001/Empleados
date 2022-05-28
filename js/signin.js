@@ -25,7 +25,7 @@ function signin() {
 
     axios({
         method: 'post',
-        url: 'http://localhost:3000/user/signin',
+        url: 'https://proyectosc.azurewebsites.net/user/signin',
         data: {
             user_name: name,
             user_mail: mail,

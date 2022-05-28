@@ -30,7 +30,7 @@ function put() {
 
     axios({
         method: 'put',
-        url: 'http://localhost:3000/empleados/'+name,
+        url: 'https://proyectosc.azurewebsites.net/'+name,
         data: {
             nombre: name,
             apellidos: lastname,

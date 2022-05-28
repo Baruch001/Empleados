@@ -25,7 +25,7 @@ function get() {
     var name = document.getElementById('input-name').value;
     var table = document.querySelector("table");
 
-    axios.get("http://localhost:3000/empleados/"+name, headers).then(function(res){
+    axios.get("https://proyectosc.azurewebsites.net/"+name, headers).then(function(res){
         console.log(res);
         for(var i=0;i<res.data.message.length;i++){
             table.innerHTML += `

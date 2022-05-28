@@ -29,7 +29,7 @@ function alta() {
 
     axios({
         method: 'post',
-        url: 'http://localhost:3000/empleados/',
+        url: 'https://proyectosc.azurewebsites.net/',
         data: {
             nombre: name,
             apellidos: lastname,
